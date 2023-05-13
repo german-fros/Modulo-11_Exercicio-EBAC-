@@ -1,0 +1,63 @@
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    .container {
+        width: 90%;
+    }
+
+    #sobre {
+        display: block;
+    }
+
+    #sobre img {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+
+    #produtos ul {
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+        column-gap: 2%;
+        row-gap: 4%;
+    }
+
+    .produto button {
+        padding: 10px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+    
+    nav li a {
+        font-size: 14px;
+    }
+
+    #sobre {
+        display: block;
+    }
+
+    #sobre img {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+
+    #produtos ul {
+        display: grid;
+        grid-template-columns: 100%;
+        column-gap: 2%;
+        row-gap: 2%;
+    }
+
+    .produto button {
+        padding: 12px 8px;
+        font-size: 18px;
+    }
+}
